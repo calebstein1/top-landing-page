@@ -4,9 +4,14 @@ body {
     flex-direction:column;
     display:flex;
 }
-.first {
+.one-bg {
+    width:100%;
     background-color:#1f2937;
-    padding:16px 100% 0 100%;
+    justify-content:center;
+    display:flex;
+}
+.first {
+    margin:16px 100% 0 100%;
     flex-direction:column;
     display:flex;
 }
@@ -70,4 +75,60 @@ body {
     justify-content:center;
     align-items:center;
     display:flex;
+}
+.second {
+    margin-bottom:128px;
+    flex-direction:column;
+    align-items:center;
+    display:flex;
+}
+.second .img-header {
+    color:#1f2937;
+    font-size:36px;
+    font-weight:bolder;
+    margin:48px 0;
+}
+.second .img-container {
+    justify-content:center;
+    gap:32px;
+    display:flex;
+}
+.second .img-container .img-desc {
+    width:240px;
+    flex-direction:column;
+    align-items:center;
+    display:flex;
+}
+.second .img-container .img-desc .gear-logo {
+    width:180px;
+    height:auto;
+}
+.second .img-container .img-desc .img-text {
+    text-align:center;
+}
+.three-bg {
+    width:100%;
+    background-color:#e5e7eb;
+    justify-content:center;
+    display:flex;
+}
+.third {
+    padding:128px 0 128px 0;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    display:flex;
+}
+.third .quote {
+    max-width:840px;
+    color:#1f2937;
+    font-size:36px;
+    font-weight:lighter;
+    font-style:italic;
+}
+.third .quote-auth {
+    font-weight:bold;
+    font-size:24px;
+    margin-right:64px;
+    align-self:flex-end;
 }
