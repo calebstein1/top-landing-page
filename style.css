@@ -57,7 +57,7 @@ body {
     font-size:18px;
     color:#e5e7eb;
 }
-.first .top-left .signup {
+.signup {
     width:128px;
     height:36px;
     font-size:18px;
@@ -131,4 +131,41 @@ body {
     font-size:24px;
     margin-right:64px;
     align-self:flex-end;
+}
+.fourth {
+    justify-content:center;
+    align-items:center;
+    display:flex;
+}
+.fourth .cta-box {
+    background-color:#3882f6;
+    border-radius:8px;
+    padding:48px 128px;
+    margin:64px;
+    gap:128px;
+    align-items:center;
+    display:flex;
+}
+.fourth .cta-box .cta-text .cta-big {
+    font-size:24px;
+    font-weight:bolder;
+    color:#f9faf8;
+}
+.fourth .cta-box .cta-text .cta-small {
+    font-size:18px;
+    color:#e5e7eb;
+}
+.signup.white-border {
+    border:solid white 2px;
+}
+.footer {
+    width:100%;
+    background-color:#1f2937;
+    justify-content:center;
+    display:flex;
+}
+.copyright {
+    color:#e5e7eb;
+    font-size:18px;
+    padding:48px;
 }
